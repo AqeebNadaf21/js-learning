@@ -1,0 +1,87 @@
+<!-- practice your dom selection skills!
+your task is to select and store three DOM elements in the pre-defined variavles
+mainHeading, secondAdvantage and advDiv:
+1) mainHeading should store the <h1> element 
+2) secondAdvantage should store the second (!) <li> element (<li>Available</li>)
+3) advDiv should store the second <div> with thee id advantages
+    use the dom selection tools you learned about to get access to those elements and store them in the three variables -->
+
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Exercise time!</title>
+</head>
+<body>
+    <main>
+        <div id="overview">
+            <h1>HTML & JavaScript are crucial technologies</h1>
+            <p>The web would not work without them...</p>
+        </div>
+        <div id="advantages">
+            <ul>
+                <li>Flexible</li>
+                <li id="secondAdvantage">Available</li>
+                <li>Magical</li>
+            </ul>
+        </div>
+    </main>
+
+    <script>
+        const mainHeading = document.querySelector("#overview");
+        console.log(mainHeading);
+        const secondAdvantage = document.querySelector("#secondAdvantage")
+        console.log(secondAdvantage);
+        const advDiv = document.querySelector("#advantages")
+        console.log(advDiv);
+        // // Your solution code goes here
+        // const mainHeading = document.querySelector("h1");
+        // console.log(mainHeading);
+        // const secondAdvantage = document.querySelector('#secondAdvantage')
+        // console.log(secondAdvantage);
+        // const advDiv = document.querySelector("#advantages");
+        // console.log(advDiv);
+    </script>
+    
+</body>
+</html>
+
+
+<!-- 
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Exercise time!</title>
+</head>
+<body>
+    <main>
+        <div id="overview">
+            <h1>HTML & JavaScript are crucial technologies</h1>
+            <p>The web would not work without them...</p>
+        </div>
+        <div id="advantages">
+            <ul>
+                <li>Flexible</li>
+                <li id="secondAdvantage">Available</li>
+                <li>Magical</li>
+            </ul>
+        </div>
+    </main>
+
+    <script>
+        const mainHeading = document.querySelector('h1');
+        const secondAdvantage = document.querySelectorAll('li')[1];
+        const advDiv = document.getElementById('advantages');
+
+        console.log(mainHeading);
+        console.log(secondAdvantage);
+        console.log(advDiv);
+    </script>
+    
+</body>
+</html> -->
+
+
