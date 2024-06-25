@@ -7,7 +7,7 @@ var updated = "Updated:"
 console.log(updated, "Aqeeb M Nadaf");
 
 console.log('======== Task_2 ========');
-var myLove = "I love only JS"
+var myLove = "I love only JavaScript"
 console.log("My Love: ",myLove);
 
 console.log('======== Task_3 ========');
